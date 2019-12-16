@@ -2,7 +2,7 @@ function FirstFactorial(num) {
 	let factorial = 1;
 
 	while (num > 0) {
-		factorial = factorial * num;
+		factorial *= num;
 		num = num - 1;
 	}
 
